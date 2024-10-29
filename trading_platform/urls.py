@@ -1,6 +1,6 @@
 from django.urls import include, path
-
 from rest_framework.routers import DefaultRouter
+
 from .apps import TradingPlatformConfig
 from .views import NetworkNodeViewSet, ProductViewSet
 
